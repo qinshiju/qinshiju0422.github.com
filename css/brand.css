@@ -1,0 +1,79 @@
+html{
+		font-size: 20px;
+	}	
+header{
+	background: -webkit-linear-gradient(#fff,#ebebeb);
+	position: relative;
+}
+header .back{
+	background: url(../images/back.png) no-repeat;
+	width: 3.2rem;
+	height: 1.5rem;
+	position: absolute;
+	left: 0.5rem;
+	top: 0.5rem;
+	background-size: 3.2rem 1.5rem; 
+}
+header .logo{
+	height: 2.5rem;
+	text-align: center;
+	font-size: 0.75rem;
+	line-height: 2.5rem;
+}
+.nav_ul{
+	width: 100%;
+	height: 2.0rem;
+	display: flex;
+}
+.nav_ul li{
+	width: 25%;
+	text-align: center;
+	line-height: 2.0rem;
+	font-size: 0.6rem;
+	border: 0.025rem solid #ccc;
+	border-left: none;
+}
+.nav_ul a{
+	color: #999;
+}
+.nav_ul li:nth-child(3) a{
+	color: red;
+}
+.nav_ul li:nth-last-child(1){
+	border-right: none;
+}
+
+.brand li{
+	width: 100%;
+	height: 6.5rem;
+	border-bottom: 0.025rem solid #ccc;
+	font-size:0.6rem;
+}
+.brand li a span{
+	margin-top: 0.75rem;
+	display: inline-block;
+	width: 5.0rem;
+	height: 5.0rem;
+	background: url(../images/brand2.png) no-repeat top center;
+	background-size: 5.0rem 2.1rem;
+	text-align: center;
+}
+.brand li a img{
+	padding-top: 0.75rem;
+	width: 10.0rem;
+	height: 5.0rem;
+}
+.brand li a span p{
+	padding-top: 2.05rem;
+	color:#999;
+}
+.brand li a span img{
+	width: 1.9rem;
+	height: 1.15rem;
+	padding-left: 1.0rem;
+}
+.brand li a span div{
+	width: 1.2rem;
+	height: 1.2rem;
+	padding: 0.7rem 0 0 0.4rem;
+}

@@ -1,0 +1,104 @@
+html{
+		font-size: 20px;
+	}	
+header{
+	background: -webkit-linear-gradient(#fff,#ebebeb);
+	position: relative;
+}
+header .back{
+	background: url(../images/back.png) no-repeat;
+	width: 3.2rem;
+	height: 1.5rem;
+	position: absolute;
+	left: 0.5rem;
+	top: 0.5rem;
+	background-size: 3.2rem 1.5rem; 
+}
+header .logo{
+	height: 2.5rem;
+	text-align: center;
+	background: url(../images/logo.png) no-repeat center;
+	background-size: 3.7rem 1.0rem; 
+}
+.fic{
+	width: 2.5rem;
+	height: 1.55rem;
+	position: absolute;
+	right: 0.5rem;
+	top: 0.5rem;
+	background: url(../images/show1.png) no-repeat;
+	background-size: 2.5rem 1.55rem;
+}
+
+.nav_ul{
+	width: 100%;
+	height: 2.0rem;
+	display: flex;
+}
+.nav_ul li{
+	width: 25%;
+	text-align: center;
+	line-height: 2.0rem;
+	font-size: 0.6rem;
+	border: 0.025rem solid #ccc;
+	border-left: none;
+}
+.nav_ul a{
+	color: #999;
+}
+.nav_ul li:nth-child(1) a{
+	color: red;
+}
+.nav_ul li:nth-last-child(1){
+	border-right: none;
+}
+
+.show li{
+	width: 100%;
+	height: 5.0rem;
+	border-bottom: 0.025rem solid #ccc;
+	font-size: 0.6rem;
+	font-weight: bold;
+}
+.pic{
+	width: 6.0rem;
+	height: 3.95rem;
+	border: 0.025rem solid #ccc;
+	text-align: center;
+	display: inline-block;
+	margin:0.5rem 0 0 0.5rem; 
+}
+.pic img{
+	width: 5.6rem;
+	height: 3.6rem;
+	padding-top: 0.175rem;
+}
+.show li div{
+	margin-top:0.5rem;
+	width: 8.95rem;
+	height: 3.95rem;
+}
+.show li div p,.pl{
+	padding-left: 0.75rem;
+}
+.con{
+	line-height: 0.95rem;
+}
+.pl{
+	line-height: 1.45rem;
+}
+.dis{
+	color: red;
+	font-size: 0.6rem;
+}
+.price{
+	font-size: 0.75rem;
+	color: red;
+}
+.old{
+	text-decoration: line-through;
+	color: #999;
+}
+.watch{
+	color:#999;
+}
